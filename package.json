@@ -1,0 +1,49 @@
+{
+  "$schema": "https://www.raycast.com/downloads/extension.schema.json",
+  "name": "rtaskmaster",
+  "title": "RtaskMaster",
+  "description": "A To-Do List Manager for Raycast",
+  "icon": "command-icon.png",
+  "author": "developer",
+  "categories": [
+    "Productivity"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "index",
+      "title": "View Tasks",
+      "subtitle": "RtaskMaster",
+      "description": "View and manage your tasks",
+      "mode": "view"
+    },
+    {
+      "name": "add-task",
+      "title": "Add Task",
+      "subtitle": "RtaskMaster",
+      "description": "Add a new task to RtaskMaster",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.104.11",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^1.0.8",
+    "@types/node": "20.8.10",
+    "@types/react": "^19.0.10",
+    "@types/uuid": "^9.0.7",
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3",
+    "react": "^19.0.0",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}
