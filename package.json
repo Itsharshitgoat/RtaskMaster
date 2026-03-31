@@ -15,14 +15,16 @@
       "title": "View Tasks",
       "subtitle": "RtaskMaster",
       "description": "View and manage your tasks",
-      "mode": "view"
+      "mode": "view",
+      "icon": "command-icon.png"
     },
     {
       "name": "add-task",
       "title": "Add Task",
       "subtitle": "RtaskMaster",
       "description": "Add a new task to RtaskMaster",
-      "mode": "view"
+      "mode": "view",
+      "icon": "command-icon.png"
     }
   ],
   "dependencies": {
